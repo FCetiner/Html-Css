@@ -1,0 +1,35 @@
+.kutu{
+    width:70%;
+    height: 50px;
+    background-color: blueviolet;
+    border:10px solid rgb(84, 4, 116);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px red;
+}
+.kirmizi{
+    color:red;
+    text-align: right;
+    background-color:aquamarine;
+}
+
+.container{
+    display: flex; /*flexe geçmek için kullanırız*/
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: black;
+    height: 500px;
+    
+}
+
+.container div{
+    width:200px;
+    height:200px;
+    background-color: blueviolet;
+    padding:20px;
+    margin:20px;
+}
+
+.ikinci{
+    flex: 2;
+}
